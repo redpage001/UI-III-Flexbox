@@ -203,3 +203,11 @@ li {
 .services-info-img {
 	width: 48%;
 }
+
+@media(max-width: 1000px){
+	#ServicesContent {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+}
